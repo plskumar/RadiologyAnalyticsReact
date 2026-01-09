@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://plskumar.github..io/RadiologyAnalyticsReact",
+  "homepage": "https://plskumar.github.io/RadiologyAnalyticsReact",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
