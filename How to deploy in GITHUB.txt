@@ -1,0 +1,29 @@
+How to deploy in GITHUB
+loginto GitHub using plskumar in a browser
+create a repository
+within VS code, download GIT for windows.
+add the paths 
+C:\Program Files\Git\bin
+C:\Program Files\Git\cmd
+Open 'Edit the System Environment Variables' from start menu
+Find the variable named Path and click Edit (
+Click New and paste the path to your Git folders:
+C:\Program Files\Git\bin
+C:\Program Files\Git\cmd
+
+Click OK and Restart VS Code.
+Now you can run git commands in VS code terminal
+In VS code Terminal run the following:Initazize and commit
+git init -b main
+git add .
+git commit -m "Finalizing Radiology Dashboard- this is some name for the version of the code"
+Connect to GitHub
+git remote add origin https://github.com/plskumar/RadiologyAnalyticsReact.git. This link to the package can be copied from the git screen
+Push the source code
+git push -u origin main
+npm run deploy
+
+Ensure npm is installed. in VS code T, run npm install
+Then 
+npm build
+npm deploy
